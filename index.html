@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedro Victor - Desenvolvedor Front-End</title>
+    <meta
+      name="description"
+      content="Portfólio de Pedro Victor - Desenvolvedor Front-End e UI/UX Designer"
+    />
+    <meta
+      name="keywords"
+      content="front-end, HTML, CSS, JavaScript, portfólio, desenvolvedor"
+    />
+    <meta name="author" content="Pedro Victor Leal Dias" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/Perfil 2.jpg" />
+  </head>
+  <body>
+    <!-- Header e Navegação -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-brand">
+          <h1>PedroVictor</h1>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Início</a></li>
+          <li><a href="#about" class="nav-link">Sobre</a></li>
+          <li><a href="#skills" class="nav-link">Habilidades</a></li>
+          <li><a href="#projects" class="nav-link">Projetos</a></li>
+          <li><a href="#multimedia" class="nav-link">Multimídia</a></li>
+          <li><a href="#contact" class="nav-link">Contato</a></li>
+        </ul>
+        <div class="theme-toggle">
+          <button id="theme-btn" aria-label="Alternar tema">🌙</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Seção Home/Landing -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Olá, eu sou o <span class="highlight floating">Pedro</span></h1>
+        <p>Desenvolvedor Front-End & Criador de Experiências Digitais</p>
+        <button class="cta-button wave-button pulsating" id="explore-btn">
+          Explorar Portfólio
+        </button>
+      </div>
+      <div class="hero-image floating">
+        <img
+          src="assets/images/Perfil 1.jpg"
+          alt="Foto de perfil - Pedro Victor"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-header">
+          <h2 class="about-title">Sobre Mim</h2>
+          <div class="title-decoration">
+            <div class="decoration-line"></div>
+            <div class="decoration-dot"></div>
+            <div class="decoration-line"></div>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="about-card">
+            <div class="about-text">
+              <div class="about-badge">🎯 Destaque</div>
+              <p class="about-intro">
+                Estudante do <span class="highlight-text">5° período</span> de
+                <strong>Análise e Desenvolvimento de Sistemas</strong> na
+                <span class="highlight-text"
+                  >Universidade Católica de Brasília</span
+                >, com dupla expertise em
+                <strong class="gradient-text">desenvolvimento front-end</strong>
+                e <strong class="gradient-text">liderança de projetos</strong>.
+              </p>
+
+              <div class="about-features">
+                <div class="feature-item">
+                  <span class="feature-icon">🚀</span>
+                  <span class="feature-text"
+                    >Especializado em criar soluções digitais modernas</span
+                  >
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">👥</span>
+                  <span class="feature-text"
+                    >Lidero equipes técnicas usando metodologias ágeis</span
+                  >
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">💡</span>
+                  <span class="feature-text"
+                    >Foco em entregas de alto impacto</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="about-stats">
+              <div class="stat-card">
+                <div class="stat-icon">📊</div>
+                <span class="stat-number" data-target="7">0</span>
+                <span class="stat-label">Projetos Liderados</span>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">⏱️</div>
+                <span class="stat-number" data-target="2">0</span>
+                <span class="stat-label">Anos de Liderança</span>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">👨‍💼</div>
+                <span class="stat-number" data-target="12">0</span>
+                <span class="stat-label">Colaboradores Orientados</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-grid" id="skills-container">
+          <!-- Carregado via JSON -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Projetos (ÚNICA) -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Meus Projetos</h2>
+        <div class="projects-grid" id="projects-container">
+          <!-- Carregado via JSON -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Multimídia -->
+    <section id="multimedia" class="multimedia">
+      <div class="container">
+        <h2>Conteúdo Multimídia</h2>
+        <div class="video-container">
+          <video controls aria-label="Demonstração do projeto principal">
+            <source src="assets/videos/Vídeo 1.mp4" type="video/mp4" />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              aria-required="true"
+            />
+            <span class="error-message" id="name-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              aria-required="true"
+            />
+            <span class="error-message" id="email-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              aria-required="true"
+            ></textarea>
+            <span class="error-message" id="message-error"></span>
+          </div>
+
+          <button type="submit" class="submit-btn glow-on-hover">
+            Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Pedro Victor Leal Dias. Desenvolvedor Front-End</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/localStorage.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

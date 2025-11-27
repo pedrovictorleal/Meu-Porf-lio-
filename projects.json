@@ -1,0 +1,53 @@
+{
+  "skills": [
+    {
+      "name": "HTML5",
+      "level": 95
+    },
+    {
+      "name": "CSS3",
+      "level": 90
+    },
+    {
+      "name": "JavaScript",
+      "level": 85
+    },
+    {
+      "name": "React",
+      "level": 80
+    },
+    {
+      "name": "Figma",
+      "level": 75
+    },
+    {
+      "name": "Gestão de Projetos Ágeis",
+      "level": 85
+    },
+    {
+      "name": "Liderança Técnica",
+      "level": 80
+    },
+    {
+      "name": "Comunicação com Stakeholders",
+      "level": 90
+    },
+    {
+      "name": "Scrum/Kanban",
+      "level": 85
+    },
+    {
+      "name": "Resolução de Problemas",
+      "level": 90
+    }
+  ],
+  "projects": [
+    {
+      "title": "Vizinhança App",
+      "description": "Protótipo de aplicativo mobile para comunidade local, desenvolvido no Figma. Interface moderna e intuitiva para conectar vizinhos.",
+      "tags": ["Figma", "UI/UX Design", "Prototipagem", "Mobile App"],
+      "demo": "https://www.figma.com/proto/Qw3nPGgJb4mMftUVVBFZOc/Vizinhan%C3%A7a-app?node-id=1-2&p=f&t=conCHkDRCooZIQ2j-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+      "type": "design"
+    }
+  ]
+}
